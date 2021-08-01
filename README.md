@@ -8,6 +8,18 @@ Sistemas de Controle de Versionamento, em inglês *Version Control System* (VCS)
 O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus Torvalds, o famoso criado do kernel do Linux. [2]
 
 
+### Alguns comandos
+
+Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **git bash**.
+
+#### Clonando um repositório do GitHub
+
+Tomando como exemplo o repositório do **freeCodeCamp**, basta você copiar o link fornecido após o clique no botão verde, assim como mostrado na figura abaixo.
+
+![repositorio a ser clonado](/images/clone-de-repositorio.png)
+
+Utilizamos o comando `git clone`:  
+`$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
