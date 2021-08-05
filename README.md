@@ -25,9 +25,8 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git add .`: adiciona todos os arquivos a partir do diretório atual
     * Ex. considere os diretórios e arquivos abaixo e que todos os arquivos foram alterados  
     ![Arvore de diretorios](images/git-add-dot.png)
-
-    1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
-    2. Se estamos em **Git/src**, `$ git add .` então só adiciona **index.css** e **index.css**.
+        1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
+        2. Se estamos em **Git/src**, `$ git add .` então só adiciona **index.css** e **index.css**.
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
