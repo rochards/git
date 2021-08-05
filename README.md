@@ -12,13 +12,22 @@ O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus To
 
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
-* `git clone url-repositorio` &#8594; clona um repositório
+* `git clone url-repositorio`: clona um repositório
     * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
 * `git status`: verifica o status do repositório
     * Ex. `$ git status`  
     ![Git status](images/git-status.png)
 
+* `git add nome-arquivo`: adiciona o arquivo especificado
+    * Ex. `$ git add README.md`
+
+* `git add .`: adiciona todos os arquivos a partir do diretório atual
+    * Ex. considere os diretórios e arquivos abaixo e que todos os arquivos foram alterados  
+    ![Arvore de diretorios](images/git-add-dot.png)
+
+    1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
+    2. Se estamos em **Git/src**, `$ git add .` então só adiciona **index.css** e **index.css**.
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
