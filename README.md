@@ -23,7 +23,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex. `$ git add README.md`
 
 * `git add .`: adiciona todos os arquivos a partir do diretório atual.  
-  Considere os diretórios e arquivos abaixo e que todos os arquivos foram alterados  
+  Considere os diretórios abaixo e que todos os arquivos foram alterados  
   ![Arvore de diretorios](images/git-add-dot.png)
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
   * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_.
