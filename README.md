@@ -28,7 +28,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
   * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_.
 * `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem  
-  Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser commitado
+  Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
 
