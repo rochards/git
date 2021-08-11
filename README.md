@@ -31,6 +31,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
+* `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações.
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
