@@ -12,27 +12,27 @@ O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus To
 
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
-* `git clone url-repositorio`: clona um repositório
+* `git clone url-repositorio`: clona um repositório:
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
-* `git status`: verifica o status do repositório
+* `git status`: verifica o status do repositório:
   * Ex. `$ git status`  
   ![Git status](images/git-status.png)
 
-* `git add nome-arquivo`: adiciona o arquivo especificado
+* `git add nome-arquivo`: adiciona o arquivo especificado:
   * Ex. `$ git add README.md`
 
-* `git add .`: adiciona todos os arquivos a partir do diretório atual.  
+* `git add .`: adiciona todos os arquivos a partir do diretório atual:  
   Considere os diretórios abaixo e que todos os arquivos foram alterados  
   ![Arvore de diretorios](images/git-add-dot.png)
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
-  * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_.
-* `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem  
+  * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_
+* `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem:  
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
-* `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente
-* `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_
+* `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente;
+* `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_;
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
