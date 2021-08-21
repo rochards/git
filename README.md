@@ -31,7 +31,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
-* `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Vc pode inserir quantos `-m` desejar, ao final cada um aparece em um parágrafo diferente
+* `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente
 * `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_
 
 ### Referências
