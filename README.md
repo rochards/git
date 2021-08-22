@@ -33,6 +33,10 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex. `git commit -m "Atualiza README.md"`
 * `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente;
 * `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_;
+* `git branch`: lista as _branches_ existentes no repositório;
+* `git branch -r`: lista as _branches_ presentes no repositório remoto;
+* `git branch -a`: lista todas _branches_, remotas e locais;
+* `git branch -d nome-da-branch`: deleta a _branch_ especificada;
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
