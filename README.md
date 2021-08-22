@@ -37,6 +37,9 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git branch -r`: lista as _branches_ presentes no repositório remoto;
 * `git branch -a`: lista todas _branches_, remotas e locais;
 * `git branch -d nome-da-branch`: deleta a _branch_ especificada;
+* `git remote -v`: lista os repositórios remotos com as urls  
+  Considerando que o comando acima foi executado, na imagem abaixo é mostrado um repositório remoto chamado **origin**:  
+  ![Exemplo remote -v](images/git-remote-v.png)
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
