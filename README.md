@@ -12,14 +12,14 @@ O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus To
 
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
-* `git clone url-repositorio`: clona um repositório:
+* `git clone <url-repositorio>`: clona um repositório:
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
 * `git status`: verifica o status do repositório:
   * Ex. `$ git status`  
   ![Git status](images/git-status.png)
 
-* `git add nome-arquivo`: adiciona o arquivo especificado:
+* `git add <nome-arquivo>`: adiciona o arquivo especificado:
   * Ex. `$ git add README.md`
 
 * `git add .`: adiciona todos os arquivos a partir do diretório atual:  
@@ -36,7 +36,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git branch`: lista as _branches_ existentes no repositório;
 * `git branch -r`: lista as _branches_ presentes no repositório remoto;
 * `git branch -a`: lista todas _branches_, remotas e locais;
-* `git branch -d nome-da-branch`: deleta a _branch_ especificada;
+* `git branch -d <nome-da-branch>`: deleta a _branch_ especificada;
 * `git remote -v`: lista os repositórios remotos com as urls  
   Considerando que o comando acima foi executado, na imagem abaixo é mostrado um repositório remoto chamado **origin**:  
   ![Exemplo remote -v](images/git-remote-v.png)
