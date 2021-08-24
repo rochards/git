@@ -12,7 +12,8 @@ O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus To
 
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
-* `git init`: inicializa um novo repositório Git em sua máquina;
+* `git init`: inicializa um novo repositório Git em sua máquina.
+  * Ex. Se executamos `git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
 
 * `git clone <url-repositorio>`: clona um repositório:
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
