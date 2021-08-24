@@ -40,6 +40,10 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git remote -v`: lista os repositórios remotos com as urls  
   Considerando que o comando acima foi executado, na imagem abaixo é mostrado um repositório remoto chamado **origin**:  
   ![Exemplo remote -v](images/git-remote-v.png)
+* `git remote add <nome-repositorio-remoto> <url>`: associa seu repositório local a um remoto, cujo `nome-repositorio-remoto` é de sua escolha.
+  * Ex.: `git remote add origin https://github.com/rochards/new-project.git`. Por convenção, chamamos nosso repositório remoto de **origin**.
+* `git remote rename <nome-atual> <novo-nome>`: comando para renomear o nome do repositório remoto.
+  * Ex. `git remote rename origin origin-git`
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
