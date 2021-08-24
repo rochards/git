@@ -12,6 +12,8 @@ O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus To
 
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
+* `git init`: inicializa um novo repositório Git em sua máquina;
+
 * `git clone <url-repositorio>`: clona um repositório:
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
@@ -27,23 +29,34 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   ![Arvore de diretorios](images/git-add-dot.png)
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
   * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_
+
 * `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem.  
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
+
 * `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente;
+
 * `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_;
+
 * `git branch`: lista as _branches_ existentes no repositório;
+
 * `git branch -r`: lista as _branches_ presentes no repositório remoto;
+
 * `git branch -a`: lista todas _branches_, remotas e locais;
+
 * `git branch -d <nome-da-branch>`: deleta a _branch_ especificada;
+
 * `git remote -v`: lista as referências para repositórios remotos e respectivas urls presentes no seu repositório local.  
   Considerando que o comando acima foi executado, na imagem abaixo é mostrada uma referência chamada **origin** para um repositório remoto:  
   ![Exemplo remote -v](images/git-remote-v.png)
+
 * `git remote add <nome-repositorio-remoto> <url>`: associa seu repositório local a um remoto, cujo `nome-repositorio-remoto` é de sua escolha:
   * Ex.: `git remote add origin https://github.com/rochards/new-project.git`. Por convenção, chamamos nossa referência para o repositório remoto de **origin**.
+
 * `git remote rename <nome-atual> <novo-nome>`: comando para renomear o nome da referência para o repositório remoto:
   * Ex. `git remote rename origin origin-git`
+
 * `git remote remove <nome-repositorio-remoto>`: exclui a referência, que existe na sua máquina, para o repositório remoto:
   * Ex. `git remote remove origin`
 
