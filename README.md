@@ -22,12 +22,12 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git add <nome-arquivo>`: adiciona o arquivo especificado:
   * Ex. `$ git add README.md`
 
-* `git add .`: adiciona todos os arquivos a partir do diretório atual:  
+* `git add .`: adiciona todos os arquivos a partir do diretório atual.  
   Considere os diretórios abaixo e que todos os arquivos foram alterados  
   ![Arvore de diretorios](images/git-add-dot.png)
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
   * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_
-* `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem:  
+* `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem.  
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
   ![Exemplo de commit](images/git-commit-1.png)
   * Ex. `git commit -m "Atualiza README.md"`
@@ -37,7 +37,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git branch -r`: lista as _branches_ presentes no repositório remoto;
 * `git branch -a`: lista todas _branches_, remotas e locais;
 * `git branch -d <nome-da-branch>`: deleta a _branch_ especificada;
-* `git remote -v`: lista as referências para repositórios remotos e respectivas urls presentes no seu repositório local  
+* `git remote -v`: lista as referências para repositórios remotos e respectivas urls presentes no seu repositório local.  
   Considerando que o comando acima foi executado, na imagem abaixo é mostrada uma referência chamada **origin** para um repositório remoto:  
   ![Exemplo remote -v](images/git-remote-v.png)
 * `git remote add <nome-repositorio-remoto> <url>`: associa seu repositório local a um remoto, cujo `nome-repositorio-remoto` é de sua escolha:
