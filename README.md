@@ -62,6 +62,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git remote remove <nome-repositorio-remoto>`: exclui a referência, que existe na sua máquina, para o repositório remoto:
   * Ex. `git remote remove origin`
 
+* `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**.
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
