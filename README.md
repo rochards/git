@@ -62,6 +62,8 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git remote remove <nome-repositorio-remoto>`: exclui a referência, que existe na sua máquina, para o repositório remoto:
   * Ex. `git remote remove origin`
 
+* `git checkout -b <nome-nova-branch>`: 
+
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**.  
   Imagine que você e um amigo estejam trabalhando em um projeto. Seu amigo faz algumas alterações que já estão disponíveis no repositório remoto, mas você ainda não as têm. Com `git fetch` você busca essas alterações sem receio que nada será alterado ainda em seu repositório local.
 
