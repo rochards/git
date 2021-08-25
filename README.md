@@ -63,7 +63,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex. `git remote remove origin`
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**.  
-  Imagine que você e um amigo esteja trabalhando em um projeto. Seu amigo faz algumas alterações que já estão disponíveis no repositório remoto, mas você ainda não as têm. Com `git fetch` você busca essas alterações sem receio que nada será alterado ainda em seu repositório local
+  Imagine que você e um amigo estejam trabalhando em um projeto. Seu amigo faz algumas alterações que já estão disponíveis no repositório remoto, mas você ainda não as têm. Com `git fetch` você busca essas alterações sem receio que nada será alterado ainda em seu repositório local.
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
