@@ -42,7 +42,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git commit`: executado dessa forma o Git abre um editor de texto para nos dar mais liberdade ao escrever nossos commits. Você pode saber mais procurando na [documentação](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) por _core.editor_;
 
 * `git commit -v`: permite que você veja, no editor de texto _default_, as mudanças que serão adicionadas neste commit.
-  * Considere que executamos um `$ git add .` e em seguida `$ git commit -v`. O arquivo editado foi um **README.md**. A figura abaixo mostra o resultado no editor _default_:
+  * Considere que executamos um `$ git add .` para adicionar as modificações no arquivo **README.md** e em seguida `$ git commit -v`. A figura abaixo mostra o resultado no editor _default_:
   ![Git commit -v](images/git-commit-v-modified.jpg)
 * `git branch`: lista as _branches_ existentes no repositório;
 
