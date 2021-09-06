@@ -14,7 +14,7 @@ Antes de começarmos, aprenda a instalar o [Git](https://www.atlassian.com/br/gi
 Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
 * `git init`: inicializa um novo repositório Git em sua máquina.
-  * Ex. Se executamos `git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
+  * Ex. Se executamos `$ git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
 
 * `git clone <url-repositorio>`: clona um repositório:
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
@@ -57,13 +57,13 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   ![Exemplo remote -v](images/git-remote-v.png)
 
 * `git remote add <nome-repositorio-remoto> <url>`: associa seu repositório local a um remoto, cujo `nome-repositorio-remoto` é de sua escolha:
-  * Ex.: `git remote add origin https://github.com/rochards/new-project.git`. Por convenção, chamamos nossa referência para o repositório remoto de **origin**.
+  * Ex.: `$ git remote add origin https://github.com/rochards/new-project.git`. Por convenção, chamamos nossa referência para o repositório remoto de **origin**.
 
 * `git remote rename <nome-atual> <novo-nome>`: comando para renomear o nome da referência para o repositório remoto:
-  * Ex. `git remote rename origin origin-git`
+  * Ex. `$ git remote rename origin origin-git`
 
 * `git remote remove <nome-repositorio-remoto>`: exclui a referência, que existe na sua máquina, para o repositório remoto:
-  * Ex. `git remote remove origin`
+  * Ex. `$ git remote remove origin`
 
 * `git checkout -b <nome-nova-branch>`: 
 
