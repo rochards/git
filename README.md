@@ -69,6 +69,8 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**;
 
+* `git fetch <origin> <nome-da-branch>`: busca apenas as alterações no _branch_ especificado do repositório remoto;
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
