@@ -70,7 +70,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**. Esse comando é seguro, porque nada será alterado em seus *branchs* locais;
   * Ex1.
-    * Você gostaria de verificar se houveram modificações no *branch* remoto e antes de fazer o merge, gostaria de olhar as alterações -> `$ git fetch`
+    * Você gostaria de verificar se houveram modificações no *branch* remoto e antes de fazer o merge gostaria de olhar as alterações -> `$ git fetch`
     ![Exemplo git fetch](images/git-fetch.png)
     * Algumas *features* foram adicionadas no repositório remoto e podemos confirmar -> `$ git status` 
     ![Exemplo git status](images/git-status-2.png)
