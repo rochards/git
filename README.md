@@ -69,7 +69,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex. `$ git checkout -b fix-bug` 
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**. Esse comando é seguro, porque nada será alterado em seus *branchs* locais;
-
+  * Adicionando um exemplo de git fetch
 * `git fetch <remote> <nome-do-branch>`: busca apenas as alterações no _branch_ especificado do repositório remoto;
 
 ### Referências
