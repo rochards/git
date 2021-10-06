@@ -76,7 +76,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
     ![Exemplo git status](images/git-status-2.png)
     * Podemos verificar a diferença entre no repositório local e o remoto utilizando os dois *hashs* apresentados na figura anterior -> `$ git diff d99196f..d98661f`
     ![Exemplo git diff](images/git-diff.png)
-    * Agora, para trazer as alterações para nosso repositório local basta executar um *merge* com o *hash* do *commit* remoto -> `$ git merge d98661f` 
+    * Agora, para trazer as alterações para nosso repositório local basta executar um *merge* com o *hash* do *commit* remoto -> `$ git merge d98661f`  
     ![Exemplo git merge](images/git-merge.png)
   
   * **Obs.:** fazendo um `$ git pull` o *fetch* e *merge* são feitos automaticamente.
