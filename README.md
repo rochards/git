@@ -74,8 +74,11 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git remote remove <nome-repositorio-remoto>`: exclui a referência, que existe na sua máquina, para o repositório remoto:
   * Ex. `$ git remote remove origin`
 
-* `git checkout -b <nome-novo-branch>`: cria um novo _branch_ e já o seleciona como o atual;
+* `git checkout -b <nome-novo-branch>`: cria um novo _branch_ e já o seleciona como o atual:
   * Ex. `$ git checkout -b fix-bug` 
+
+* `git checkout <hash-commit>`: visualiza as alterações do projeto até o _commit_ indicado. Esse comando é muito útil para você "andar" pelo histórico de modificações. O comando é seguro, pois não alterará o estado atual do seu projeto:
+  * Ex.: `$ git checkout 9e101fd`. Supondo que antes do _checkout_ estávamos no _branch_ `develop`, caso queira voltar ao estado atual do _branch_, basta executar `git checkout develop`.
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**. Esse comando é seguro, porque nada será alterado em seus *branchs* locais;
   * Ex1.
