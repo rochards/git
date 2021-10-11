@@ -44,13 +44,15 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git commit -v`: permite que você veja, no editor de texto _default_, as mudanças que serão adicionadas neste commit.
   * Considere que executamos um `$ git add .` para adicionar as modificações no arquivo **README.md** e em seguida `$ git commit -v`. A figura abaixo mostra o resultado no editor _default_:
   ![Git commit -v](images/git-commit-v-modified.jpg)
-* `git branch`: lista as _branches_ existentes no repositório;
+* `git branch`: lista os _branches_ existentes no repositório;
 
-* `git branch -r`: lista as _branches_ presentes no repositório remoto;
+* `git branch -r`: lista os _branches_ presentes no repositório remoto;
 
-* `git branch -a`: lista todas _branches_, remotas e locais;
+* `git branch -a`: lista todos os _branches_, remotos e locais;
 
-* `git branch -d <nome-da-branch>`: deleta a _branch_ especificada;
+* `git branch -d <nome-da-branch>`: deleta o _branch_ especificado;
+
+* `git branch -m <novo-nome>`: renomeia o _branch_ atual com o nome especificado;
 
 * `git remote -v`: lista as referências para repositórios remotos e respectivas urls presentes no seu repositório local.  
   Considerando que o comando acima foi executado, na imagem abaixo é mostrada uma referência chamada **origin** para um repositório remoto:  
