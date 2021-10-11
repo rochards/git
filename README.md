@@ -26,7 +26,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
 * `git log`: exibe todo o histório de _commits_;
 
 * `git log -n <limit>`: limita o número de _commits_ a serem exibidos:
-  * Ex. `$ git log -n 3` - vai exibir apenas 3 _commits_  
+  * Ex. `$ git log -n 3` vai exibir apenas 3 _commits_  
 
 * `git add <nome-arquivo>`: adiciona o arquivo especificado:
   * Ex. `$ git add README.md`
