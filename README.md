@@ -23,6 +23,11 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
   * Ex. `$ git status`  
   ![Git status](images/git-status.png)
 
+* `git log`: exibe todo o histório de _commits_;
+
+* `git log -n <limit>`: limita o número de _commits_ a serem exibidos:
+  * Ex. `$ git log -n 3` - vai exibir apenas 3 _commits_  
+
 * `git add <nome-arquivo>`: adiciona o arquivo especificado:
   * Ex. `$ git add README.md`
 
@@ -82,6 +87,7 @@ Os comandos serão executados em algum terminal. Caso esteja em um sistema opera
     ![Exemplo git merge](images/git-merge.png)
   
   * **Obs.:** fazendo um `$ git pull` o *fetch* e *merge* são feitos automaticamente.
+
 * `git fetch <remote> <nome-do-branch>`: busca apenas as alterações no _branch_ especificado do repositório remoto;
 
 ### Referências
