@@ -11,7 +11,9 @@ Antes de começarmos, aprenda a instalar o [Git](https://www.atlassian.com/br/gi
 
 ### Principais comandos
 
-Os comandos serão executados em algum terminal. Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
+OBS1.: Os comandos são iniciados com o símbolo `$` apenas para indicar que estão sendo executados no terminal, não fazendo parte da instrução.
+
+OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
 * `git init`: inicializa um novo repositório Git em sua máquina.
   * Ex. Se executamos `$ git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
