@@ -98,13 +98,15 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git fetch <remote> <nome-do-branch>`: busca apenas as alterações no _branch_ especificado do repositório remoto;
 
 * `git revert HEAD`: desfaz as alterações do último _commit_. O Git adiciona um novo _commit_ que desfaz todas as alterações do commit anterior:
-  * Ex.: 
+  * Ex1: 
     * Verifiquemos os _commit_ existentes com `$ git log --oneline`  
     ![Exemplo git revert](images/git-revert-1.png)
     * Executando `$ git revert HEAD`  
     ![Exemplo git revert](images/git-revert-2.png)
-    
-
+  
+  * Ex2: `git revert HEAD~2` reverteria as modificações do terceiro último _commit_;
+  * Ex3: `git revert HEAD~3` reverteria as modificações do quarto último _commit_ e assim por diante.
+  
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
