@@ -110,6 +110,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 Add linha de teste 1
 Add linha de teste 2
 
+* `git reset`
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
