@@ -106,8 +106,11 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
     
 
 Add nova linha de testes 1
+<<<<<<< HEAD
 Add nova linha de testes 2
 Add nova linha de testes 3
+=======
+>>>>>>> parent of 19a48ea (Add nova linha de teste 2)
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
