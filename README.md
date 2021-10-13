@@ -107,11 +107,6 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex2: `git revert HEAD~2` reverteria as modificações do terceiro último _commit_;
   * Ex3: `git revert HEAD~3` reverteria as modificações do quarto último _commit_ e assim por diante.
   
-Add linha de teste 1
-Add linha de teste 2
-
-* `git reset`
-
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
