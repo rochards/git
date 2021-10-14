@@ -104,8 +104,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
     * Executando `$ git revert HEAD`  
     ![Exemplo git revert](images/git-revert-2.png)
   
-  * Ex2: `git revert HEAD~1` reverteria as modificações do segundo último _commit_;
-  * Ex3: `git revert HEAD~2` reverteria as modificações do terceiro último _commit_ e assim por diante.
+  * Ex2: `git revert HEAD~1` reverteria as modificações do primeiro _commit_ anterior à HEAD;
+  * Ex3: `git revert HEAD~2` reverteria as modificações do segundo _commit_ anterior à HEAD e assim por diante.
   
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
