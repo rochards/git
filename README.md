@@ -107,6 +107,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex2: `git revert HEAD~1` reverteria as modificações do primeiro _commit_ anterior à HEAD;
   * Ex3: `git revert HEAD~2` reverteria as modificações do segundo _commit_ anterior à HEAD e assim por diante.
   
+  OBS.: reverter modificações anteriores à HEAD pode requerer uma ação manual para resolver conflitos.
+  
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
