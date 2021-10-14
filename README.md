@@ -108,6 +108,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex3: `git revert HEAD~2` reverteria as modificações do segundo _commit_ anterior à HEAD e assim por diante.
   
   OBS.: reverter modificações anteriores à HEAD pode requerer uma ação manual para resolver conflitos.
+
+* `git revert --abort`: cancela tentativa de reverter o _commit_. Pode ser utilizado quando o comando de _git revert_ resultou em conflitos.
   
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
