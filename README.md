@@ -110,6 +110,15 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   **Obs**.: reverter modificações anteriores à HEAD pode requerer uma ação manual para resolver conflitos.
 
 * `git revert --abort`: cancela tentativa de reverter o _commit_. Pode ser utilizado quando o comando de _git revert_ resultou em conflitos.
+
+* `git clean`: remove arquivos não monitorados pelo Git.  
+  Para os exemplos abaixo, vamos considerar que temos um arquivo não monitorado chamado `excluir.js`:
+  * Ex1: `$ git clean -n` exibi os arquivos a serem excluídos  
+    ![Exemplo git clean](images/git-clean-n.png)
+  * Ex2: `$ git clean -i` apresenta um _menu_ interativo e te dá opções do que fazer com cada arquivo  
+    ![Exemplo git clean](images/git-clean-i.png)
+  * Ex3: `$ git clean -f` apaga todos os arquivos não monitorados  
+    ![Exemplo git clean](images/git-clean-f.png)
   
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
