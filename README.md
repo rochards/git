@@ -113,7 +113,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git clean`: remove arquivos não monitorados pelo Git.  
   Para os exemplos abaixo, vamos considerar que temos um arquivo não monitorado chamado `excluir.js`:
-  * Ex1: `$ git clean -n` exibi os arquivos a serem excluídos  
+  * Ex1: `$ git clean -n` exibe os arquivos a serem excluídos  
     ![Exemplo git clean](images/git-clean-n.png)
   * Ex2: `$ git clean -i` apresenta um _menu_ interativo e te dá opções do que fazer com cada arquivo  
     ![Exemplo git clean](images/git-clean-i.png)
