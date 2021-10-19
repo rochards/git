@@ -120,6 +120,10 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex3: `$ git clean -f` apaga todos os arquivos não monitorados  
     ![Exemplo git clean](images/git-clean-f.png)
   
+* `git rm <arquivo>`: remove arquivos que já estão sendo monitorados pelo git.
+  * Ex: `$ git rm index.js` exclui o arquivo em questão
+  **Obs.:** se o arquivo estiver na área de _stage_ será necessário utilizar a _flag_ `-f` para forçar a exclusão
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
