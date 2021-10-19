@@ -56,7 +56,15 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git commit --amend -m "<nova-mensagem>"`: edita a mensagem do último _commit_. **Importante** que esse último _commit_ ainda não tenha sindo publicado no repositório remoto, pois você terá problemas de conflito.
   * Ex1:
-    * Verifiquemos a lista de _commits_ -> `$ git log --oneline`
+    * Verifiquemos a lista de _commits_ existentes -> `$ git log --oneline`
+  
+    ![Exemplo de git amend](images/git-log-oneline-amend.png)
+
+    * Podemos modificar a mensagem do último _commit_ `ff8c91b` -> `$ git commit --amend -m "Atualiza README.md com exemplo de git amend"`
+  
+    ![Exemplo de git amend](images/git-amend.png)  
+    
+    * Executando novamente `$ git log --oneline` perceba que o _commit_ `ff8c91b` foi substituído pelo `6791def` com a nova mensagem.
 
 * `git branch`: lista os _branches_ existentes no repositório;
 
