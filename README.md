@@ -53,6 +53,9 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git commit -v`: permite que você veja, no editor de texto _default_, as mudanças que serão adicionadas neste commit.
   * Considere que executamos um `$ git add .` para adicionar as modificações no arquivo **README.md** e em seguida `$ git commit -v`. A figura abaixo mostra o resultado no editor _default_:
   ![Git commit -v](images/git-commit-v-modified.jpg)
+
+* `git commit --amend -m "<nova-mensagem>"`: edita a mensagem do último _commit_. 
+
 * `git branch`: lista os _branches_ existentes no repositório;
 
 * `git branch -r`: lista os _branches_ presentes no repositório remoto;
