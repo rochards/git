@@ -54,7 +54,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Considere que executamos um `$ git add .` para adicionar as modificações no arquivo **README.md** e em seguida `$ git commit -v`. A figura abaixo mostra o resultado no editor _default_:
   ![Git commit -v](images/git-commit-v-modified.jpg)
 
-* `git commit --amend -m "<nova-mensagem>"`: edita a mensagem do último _commit_. 
+* `git commit --amend -m "<nova-mensagem>"`: edita a mensagem do último _commit_. **Importante** que esse último _commit_ ainda não tenha sindo publicado, pois você terá problemas de conflito
 
 * `git branch`: lista os _branches_ existentes no repositório;
 
