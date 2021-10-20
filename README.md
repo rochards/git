@@ -22,7 +22,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex. `$ git clone https://github.com/freeCodeCamp/freeCodeCamp.git`
 
 * `git status`: verifica o status do repositório:
-  * Ex. `$ git status`  
+  * Ex. `$ git status`
+  
   ![Git status](images/git-status.png)
 
 * `git log`: exibe todo o histório de _commits_;
@@ -36,14 +37,18 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex. `$ git add README.md`
 
 * `git add .`: adiciona todos os arquivos a partir do diretório atual.  
-  Considere os diretórios abaixo e que todos os arquivos foram alterados  
+  Considere os diretórios abaixo e que todos os arquivos foram alterados
+  
   ![Arvore de diretorios](images/git-add-dot.png)
+  
   * Ex1. Se estamos em **Git**, `$ git add .` então adiciona todos os arquivos;
   * Ex2. Se estamos em **Git/src**, `$ git add .` então só adiciona _**index.css**_ e _**index.css**_
 
 * `git commit -m "sua mensagem"`: comita as mudanças no repositório, antes adicionadas por um `git add`, com uma mensagem.  
   Considerando que modificamos um arquivo **README.md** e já fizemos `git add README.md`. Quando executamos um `git status` é mostrado que o arquivo em questão está pronto para ser comitado
+  
   ![Exemplo de commit](images/git-commit-1.png)
+  
   * Ex. `git commit -m "Atualiza README.md"`
 
 * `git commit -m "Titulo do commit" -m "Mais detathes do commit"`: uma variação do comando para você detalhar melhor suas alterações. Você pode inserir quantos `-m` desejar, ao final cada mensagem aparecerá em um parágrafo diferente;
@@ -52,6 +57,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git commit -v`: permite que você veja, no editor de texto _default_, as mudanças que serão adicionadas neste commit.
   * Considere que executamos um `$ git add .` para adicionar as modificações no arquivo **README.md** e em seguida `$ git commit -v`. A figura abaixo mostra o resultado no editor _default_:
+  
   ![Git commit -v](images/git-commit-v-modified.jpg)
 
 * `git commit --amend -m "<nova-mensagem>"`: edita a mensagem do último _commit_. **Importante** que esse último _commit_ ainda não tenha sido publicado no repositório remoto, pois você terá problemas de conflito.
@@ -77,7 +83,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git branch -m <novo-nome>`: renomeia o _branch_ atual com o nome especificado;
 
 * `git remote -v`: lista as referências para repositórios remotos e respectivas urls presentes no seu repositório local.  
-  Considerando que o comando acima foi executado, na imagem abaixo é mostrada uma referência chamada **origin** para um repositório remoto:  
+  Considerando que o comando acima foi executado, na imagem abaixo é mostrada uma referência chamada **origin** para um repositório remoto:
+
   ![Exemplo remote -v](images/git-remote-v.png)
 
 * `git remote add <nome-repositorio-remoto> <url>`: associa seu repositório local a um remoto, cujo `nome-repositorio-remoto` é de sua escolha:
@@ -98,12 +105,19 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**. Esse comando é seguro, porque nada será alterado em seus *branchs* locais;
   * Ex1.
     * Você gostaria de verificar se houveram modificações no *branch* remoto e antes de fazer o merge gostaria de olhar as alterações -> `$ git fetch`
+    
     ![Exemplo git fetch](images/git-fetch.png)
-    * Algumas *features* foram adicionadas no repositório remoto e podemos confirmar -> `$ git status` 
+    
+    * Algumas *features* foram adicionadas no repositório remoto e podemos confirmar -> `$ git status`
+    
     ![Exemplo git status](images/git-status-2.png)
+    
     * Podemos verificar a diferença entre o repositório local e o remoto utilizando os dois *hashs* apresentados na figura anterior -> `$ git diff d99196f..d98661f`
+    
     ![Exemplo git diff](images/git-diff.png)
-    * Agora, para trazer as alterações para nosso repositório local basta executar um *merge* com o *hash* do *commit* remoto -> `$ git merge d98661f`  
+    
+    * Agora, para trazer as alterações para nosso repositório local basta executar um *merge* com o *hash* do *commit* remoto -> `$ git merge d98661f`
+    
     ![Exemplo git merge](images/git-merge.png)
   
   * **Obs.:** fazendo um `$ git pull` o *fetch* e *merge* são feitos automaticamente.
@@ -112,9 +126,12 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git revert HEAD`: desfaz as alterações do último _commit_. O Git adiciona um novo _commit_ que desfaz todas as alterações do commit anterior:
   * Ex1: 
-    * Verifiquemos os _commit_ existentes com `$ git log --oneline`  
+    * Verifiquemos os _commit_ existentes com `$ git log --oneline`
+    
     ![Exemplo git revert](images/git-revert-1.png)
-    * Executando `$ git revert HEAD`  
+    
+    * Executando `$ git revert HEAD`
+    
     ![Exemplo git revert](images/git-revert-2.png)
   
   * Ex2: `git revert HEAD~1` reverteria as modificações do primeiro _commit_ anterior à HEAD;
@@ -126,11 +143,16 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git clean`: remove arquivos não monitorados pelo Git.  
   Para os exemplos abaixo, vamos considerar que temos um arquivo não monitorado chamado `excluir.js`:
-  * Ex1: `$ git clean -n` exibe os arquivos a serem excluídos  
+  * Ex1: `$ git clean -n` exibe os arquivos a serem excluídos
+    
     ![Exemplo git clean](images/git-clean-n.png)
-  * Ex2: `$ git clean -i` apresenta um _menu_ interativo e te dá opções do que fazer com cada arquivo  
+  
+  * Ex2: `$ git clean -i` apresenta um _menu_ interativo e te dá opções do que fazer com cada arquivo
+    
     ![Exemplo git clean](images/git-clean-i.png)
-  * Ex3: `$ git clean -f` apaga todos os arquivos não monitorados  
+  
+  * Ex3: `$ git clean -f` apaga todos os arquivos não monitorados
+    
     ![Exemplo git clean](images/git-clean-f.png)
   
 * `git rm <arquivo>`: remove arquivos que já estão sendo monitorados pelo git.
