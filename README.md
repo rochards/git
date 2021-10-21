@@ -72,6 +72,10 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
     
     * Executando novamente `$ git log --oneline` perceba que o _commit_ `ff8c91b` foi substituído pelo `6791def` com a nova mensagem.
 
+* `git commit --amend`: realiza a mesma função já descrita acima, porém como não estamos passando a _flag_ `-m`, é aberto o editor configurado como _default_ para definirmos a mensagem do _commit_;
+
+* `git commit --amend --no-edit`: caso tivéssemos algum arquino na área de _staging_ e gostaríamos que ele tivesse sido commitado no _commit_ anterior, podemos utilizar essa variação do comando para cumprir esse propósito sem editar a mensagem do _commit_;
+
 * `git branch`: lista os _branches_ existentes no repositório;
 
 * `git branch -r`: lista os _branches_ presentes no repositório remoto;
