@@ -159,6 +159,10 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
     
     ![Exemplo git clean](images/git-clean-f.png)
   
+  **Obs.:** junto as _flags_ acima utilize `-d` para que a busca aconteça de forma recursiva, ou seja, arquivos que estão dentro de outros diretórios, como `src/files/tests/excluir.js`.
+
+  * Ex4: `$ git clean -di` 
+  
 * `git rm <arquivo>`: remove arquivos que já estão sendo monitorados pelo git.
   * Ex: `$ git rm index.js` exclui o arquivo em questão  
   **Obs.:** se o arquivo estiver na área de _stage_ será necessário utilizar a _flag_ `-f` para forçar a exclusão
