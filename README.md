@@ -103,7 +103,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git checkout -b <nome-novo-branch>`: cria um novo _branch_ e já o seleciona como o atual:
   * Ex. `$ git checkout -b fix-bug` 
 
-* `git checkout <branch-remoto>`: faz o _checkout para o branch remoto_ 
+* `git checkout -b <nome-novo-branch> origin/<branch-remoto>`: fcria um novo _branch_ local a partir do remoto. Posteriomente, as modificações realizadas localmente podem ser enviadas para o _branch_ remoto de origem.
 
 * `git checkout <hash-commit>`: visualiza as alterações do projeto até o _commit_ indicado. Esse comando é muito útil para você "andar" pelo histórico de modificações. O comando é seguro, pois não alterará o estado atual do seu projeto:
   * Ex.: `$ git checkout 9e101fd`. Supondo que antes do _checkout_ estávamos no _branch_ `develop`, caso queira voltar ao estado atual do _branch_ basta executar `git checkout develop`.
