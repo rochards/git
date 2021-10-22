@@ -143,6 +143,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   
   **Obs**.: reverter modificações anteriores à HEAD pode requerer uma ação manual para resolver conflitos.
 
+  :bulb: essa abordagem é a mais indicada para reverter _commits_ que já foram publicados em um repositório remoto.
+
 * `git revert --abort`: cancela tentativa de reverter o _commit_. Pode ser utilizado quando o comando de _git revert_ resultou em conflitos.
 
 * `git clean`: remove arquivos não monitorados pelo Git.  
