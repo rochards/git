@@ -171,6 +171,24 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
   * Ex: `$ git rm index.js` exclui o arquivo em questão  
   **Obs.:** se o arquivo estiver na área de _stage_ será necessário utilizar a _flag_ `-f` para forçar a exclusão
 
+* `git merge <nome-branch>`: mescla as modificações de dois _branchs_:
+  * Ex1:
+    * Estamos no _branch_ `main` e temos por enquanto apenas os _commits_
+
+    ![Git status](images/git-merge-status1.png)
+
+    * Criamos um _branch_ chamado `feature-1` e fizemos alguas modificações nele
+
+    ![Git status](images/git-merge-status2.png)
+
+    * Voltamos ao o _branch_ `main` e executamos o comando `$ git merge feature-1`
+
+    ![Git merge](images/git-merge2.png)
+
+    * Perceba na terceira linha da figura acima que foi feito um _Fast-forward_, isso se aconteceu porque enquanto eram feitas modificações no _branch_ `feature-1` o _branch_ `main` não foi alterado. Como resultado, abaixo podemos ver como está o _branch_ `main`
+    
+    ![Git merge](images/git-merge-status3.png) 
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
