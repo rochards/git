@@ -110,7 +110,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git fetch`: baixa arquivos, commits e referências de um repositório remoto. Por padrão as buscas são feitas em **origin**. Esse comando é seguro, porque nada será alterado em seus *branchs* locais;
   * Ex1.
-    * Você gostaria de verificar se houveram modificações no *branch* remoto e antes de fazer o merge gostaria de olhar as alterações -> `$ git fetch`
+    * Você gostaria de verificar se houveram modificações no *branch* remoto e antes de fazer o _merge_ gostaria de olhar as alterações -> `$ git fetch`
     
     ![Exemplo git fetch](images/git-fetch.png)
     
