@@ -181,11 +181,11 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git status](images/git-merge-status2.png)
 
-    * Voltamos ao o _branch_ `main` e executamos o comando `$ git merge feature-1`
+    * Voltamos ao o _branch_ `main` e executamos -> `$ git merge feature-1`
 
     ![Git merge](images/git-merge2.png)
 
-    * Perceba na terceira linha da figura acima que foi feito um _Fast-forward_, isso se aconteceu porque enquanto eram feitas modificações no _branch_ `feature-1` o _branch_ `main` não foi alterado. Como resultado, abaixo podemos ver como está o _branch_ `main`
+    * Perceba na terceira linha da figura acima que foi feito um _Fast-forward_, isso aconteceu porque enquanto eram feitas modificações no _branch_ `feature-1` o _branch_ `main` não foi alterado. Como resultado, abaixo podemos ver como está o _branch_ `main`
     
     ![Git merge](images/git-merge-status3.png) 
 
