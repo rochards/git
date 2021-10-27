@@ -181,13 +181,31 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git status](images/git-merge-status2.png)
 
-    * Voltamos ao o _branch_ `main` e executamos -> `$ git merge feature-1`
+    * Mudamos para o _branch_ `main` e executamos -> `$ git merge feature-1`
 
-    ![Git merge](images/git-merge2.png)
+    ![Git merge](images/git-merge-result.png)
 
-    * Perceba na terceira linha da figura acima que foi feito um _Fast-forward_, isso aconteceu porque enquanto eram feitas modificações no _branch_ `feature-1` o _branch_ `main` não foi alterado. Como resultado, abaixo podemos ver como está o _branch_ `main`
+    * Perceba na terceira linha da figura acima que foi feito um _Fast-forward_, isso aconteceu porque enquanto eram feitas modificações em `feature-1` o _branch_ `main` não foi alterado. Como resultado, abaixo podemos ver como está o _branch_ `main`
     
     ![Git merge](images/git-merge-status3.png) 
+  
+  * Ex2:
+    * Estamos novamente no _branch_ `main` e temos por enquanto apenas os _commits_
+
+    ![Git status](images/git-merge-status4.png)
+
+    * Criamos um _branch_ chamado `feature-2` e fizemos alguas modificações nele
+
+    ![Git status](images/git-merge-status5.png)
+
+    * Antes do _merge_ em `main`, percebemos que houve modificação no histório de _commits_. Na imagem abaixo, perceba que quando comparamos às anteriores o último _commit_ em `main` não é o mais o `c75064e` e sim o `d455e20`
+
+    ![Git status](images/git-merge-status6.png)
+
+    * Mudamos para o _branch_ `main` e executamos -> `$ git merge feature-2`
+    
+    ![Git merge resultado](images/git-merge-message.png) 
+    ![Git merge resultado](images/git-merge-result2.png) 
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
