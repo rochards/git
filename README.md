@@ -198,14 +198,20 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git status](images/git-merge-status5.png)
 
-    * Antes do _merge_ em `main`, percebemos que houve modificação no histório de _commits_. Na imagem abaixo, perceba que quando comparamos às anteriores o último _commit_ em `main` não é o mais o `c75064e` e sim o `d455e20`
+    * Antes do _merge_ em `main`, percebemos que houve modificação no histório de _commits_. Na imagem abaixo, perceba que quando comparamos às anteriores o último _commit_ em `main` não é mais o `c75064e` e sim o `d455e20`
 
     ![Git status](images/git-merge-status6.png)
 
     * Mudamos para o _branch_ `main` e executamos -> `$ git merge feature-2`
     
-    ![Git merge resultado](images/git-merge-message.png) 
+    ![Git merge resultado](images/git-merge-message.png)  
+    o editor _default_ é aberto para escrevermos uma mensagem de _commit_
+
     ![Git merge resultado](images/git-merge-result2.png) 
+
+    * Quando verificamos o histórico de _commits_ no _branch_ `main` com `$ git log --oneline --graph`, temos
+
+    ![Git status](images/git-merge-status7.png)
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
