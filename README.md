@@ -194,7 +194,7 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git status](images/git-merge-status4.png)
 
-    * Criamos um _branch_ chamado `feature-2` e fizemos alguas modificações nele
+    * Criamos um _branch_ chamado `feature-2` e fizemos algumas modificações nele
 
     ![Git status](images/git-merge-status5.png)
 
@@ -209,9 +209,14 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git merge resultado](images/git-merge-result2.png) 
 
+    * Perceba na mensagem de `'recursive' strategy` apresentada na primeira linha da figura acima. Isso se dá porque os dois _branchs_ evoluíram separadamente. 
     * Quando verificamos o histórico de _commits_ no _branch_ `main` com `$ git log --oneline --graph`, temos
 
     ![Git status](images/git-merge-status7.png)
+
+    A figura abaixo ajuda a entender melhor como aconteceu a evolução dos _branchs_. Perceba que o _commit_ de _merge_ `249029a` possui dois "pais".
+
+    ![Git status](images/git-history.png)
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
