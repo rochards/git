@@ -218,6 +218,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     ![Git status](images/git-history.png)
 
+    :warning: se as mesmas linhas de um mesmo arquivo forem modificadas em _branchs_ diferentes, você terá um conflito de _merge_
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
 [2] - https://www.atlassian.com/git/tutorials/what-is-git
