@@ -130,6 +130,8 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git fetch <remote> <nome-do-branch>`: busca apenas as alterações no _branch_ especificado do repositório remoto;
 
+* `git pull`: busca e baixa conteúdos do repositório remoto e realiza atualizações imediatas no repositório local. Esse comando é a combinação do `git fetch` e `git merge`.
+
 * `git revert HEAD`: desfaz as alterações do último _commit_. O Git adiciona um novo _commit_ que desfaz todas as alterações do commit anterior:
   * Ex1: 
     * Verifiquemos os _commit_ existentes com `$ git log --oneline`
