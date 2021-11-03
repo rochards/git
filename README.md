@@ -135,7 +135,9 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 * `git push  <remoto> <local-branch>`: envia para o repositório remoto as alterações do _branch_ local.
   * Ex1: `git push origin main`
   
-  :bulb: inserir a _flag_ `-u` ao comando acima fará com que o seu _branch_ local monitore e evolução do _branch_ remoto
+  :bulb: inserir a _flag_ `-u` ao comando acima fará com que o seu _branch_ local monitore e evolução do _branch_ remoto, conforme mostra o exemplo da figura abaixo
+
+  ![git status](images/git-push-status.png)
 
 * `git revert HEAD`: desfaz as alterações do último _commit_. O Git adiciona um novo _commit_ que desfaz todas as alterações do commit anterior:
   * Ex1: 
