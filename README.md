@@ -132,6 +132,11 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 * `git pull`: busca e baixa conteúdos do repositório remoto e realiza atualizações imediatas no repositório local. Esse comando é a combinação do `git fetch` e `git merge`.
 
+* `git push  <remoto> <local-branch>`: envia para o repositório remoto as alterações do _branch_ local.
+  * Ex1: `git push origin main`
+  
+  :bulb: inserir a _flag_ `-u` ao comando acima fará com que o seu _branch_ local monitore e evolução do _branch_ remoto
+
 * `git revert HEAD`: desfaz as alterações do último _commit_. O Git adiciona um novo _commit_ que desfaz todas as alterações do commit anterior:
   * Ex1: 
     * Verifiquemos os _commit_ existentes com `$ git log --oneline`
