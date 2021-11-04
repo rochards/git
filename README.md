@@ -252,5 +252,5 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud  
-[2] - https://git-scm.com/book/en/v2
+[2] - https://git-scm.com/book/en/v2  
 [3] - https://www.atlassian.com/git/tutorials/advanced-overview
