@@ -248,6 +248,9 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
 
     :warning: se as mesmas linhas de um mesmo arquivo forem modificadas em _branchs_ diferentes, você terá um conflito de _merge_
 
+:nerd_face: [comandos avançados](https://www.atlassian.com/git/tutorials/advanced-overview)
+
 ### Referências
 [1] - https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud  
 [2] - https://git-scm.com/book/en/v2
+[3] - https://www.atlassian.com/git/tutorials/advanced-overview
