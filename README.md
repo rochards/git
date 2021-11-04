@@ -4,8 +4,7 @@
 Sistemas de Controle de Versionamento, em inglês *Version Control System* (VCS), são ferramentas que auxiliam o time de desenvolvimento a gerenciar mudanças no código ao longo do tempo. [1]
 
 ### GIT
-**Git**, em suma, é um Sistema Distribuído de Controle de Versionamento, ou *Distributed VCS* (DVCS), uma vez que todo o conteúdo de um repositório remoto é completamente copiado para a máquina de cada contribuidor/desenvolvedor. [1]
-O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus Torvalds, o famoso criado do kernel do Linux. [2]
+**Git**, em suma, é um Sistema Distribuído de Controle de Versionamento, ou *Distributed VCS* (DVCS), uma vez que todo o conteúdo de um repositório remoto é completamente copiado para a máquina de cada contribuidor/desenvolvedor. O projeto é *open source* e foi desenvolvido originalmente em 2005 por Linus Torvalds, o famoso criado do kernel do Linux.
 
 Antes de começarmos, aprenda a instalar o [Git](https://www.atlassian.com/br/git/tutorials/install-git) de acordo com seu Sistema Operacional.
 
@@ -14,6 +13,24 @@ Antes de começarmos, aprenda a instalar o [Git](https://www.atlassian.com/br/gi
 OBS1.: Os comandos são iniciados com o símbolo `$` apenas para indicar que estão sendo executados no terminal, não fazendo parte da instrução.
 
 OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
+
+* **Comandos abordados**
+  * `git init` 
+  * `git clone`
+  * `git status`
+  * `git log`
+  * `git add`
+  * `git commit`
+  * `git branch`
+  * `git remote`
+  * `git checkout`
+  * `git fetch`
+  * `git pull`
+  * `git push`
+  * `git revert`
+  * `git clean`
+  * `git rm`
+  * `git merge`
 
 * `git init`: inicializa um novo repositório Git em sua máquina.
   * Ex. Se executamos `$ git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
@@ -230,5 +247,5 @@ OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização d
     :warning: se as mesmas linhas de um mesmo arquivo forem modificadas em _branchs_ diferentes, você terá um conflito de _merge_
 
 ### Referências
-[1] - https://www.atlassian.com/git/tutorials/what-is-version-control \
-[2] - https://www.atlassian.com/git/tutorials/what-is-git
+[1] - https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud  
+[2] - https://git-scm.com/book/en/v2
