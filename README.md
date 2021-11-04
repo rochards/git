@@ -14,23 +14,25 @@ OBS1.: Os comandos são iniciados com o símbolo `$` apenas para indicar que est
 
 OBS2.: Caso esteja em um sistema operacional Windows, recomendo a utilização do **Git Bash**.
 
-* **Comandos abordados**
-  * `git init` 
-  * `git clone`
-  * `git status`
-  * `git log`
-  * `git add`
-  * `git commit`
-  * `git branch`
-  * `git remote`
-  * `git checkout`
-  * `git fetch`
-  * `git pull`
-  * `git push`
-  * `git revert`
-  * `git clean`
-  * `git rm`
-  * `git merge`
+#### Comandos abordados
+* `git init` 
+* `git clone`
+* `git status`
+* `git log`
+* `git add`
+* `git commit`
+* `git branch`
+* `git remote`
+* `git checkout`
+* `git fetch`
+* `git pull`
+* `git push`
+* `git revert`
+* `git clean`
+* `git rm`
+* `git merge`
+
+#### Comandos e exemplos
 
 * `git init`: inicializa um novo repositório Git em sua máquina.
   * Ex. Se executamos `$ git init` em **Documentos/my-project**, então **my-project** agora é um repositório git. 
